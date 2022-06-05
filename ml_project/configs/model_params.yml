@@ -1,0 +1,8 @@
+prod:
+  train_test_split: 0.3
+  penalty: 'l2'
+  random_state: 42
+test:
+  train_test_split: 0.5
+  penalty: 'l2'
+  random_state: 1
