@@ -1,0 +1,14 @@
+curl -X 'GET' \
+  'http://0.0.0.0:8001/predict' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+        "data": [
+            [69.0, 1.0, 0.0, 160.0, 234.0, 1.0, 2.0, 131.0, 0.0, 0.1, 1.0, 1.0, 0.0],
+            [68.0, 0.0, 1.0, 140.0, 239.0, 0.0, 0.0, 151.0, 1.0, 1.8, 0.0, 2.0, 1.0]
+        ],
+        "columns": [
+            "age", "sex", "cp", "trestbps", "chol", "fbs", "restecg", "thalach",
+            "exang", "oldpeak", "slope", "ca", "thal"
+        ]
+    }'

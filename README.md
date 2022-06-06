@@ -10,5 +10,6 @@ poetry shell
 * report создает отчет и кладет в norebooke/report
 * train обучает модель и кладет в model/*.sav
 * test проганяет тесты 
+* docker build из корня чтобы сделать image
 
 
